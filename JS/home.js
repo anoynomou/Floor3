@@ -123,7 +123,7 @@ var CardMaker = (name,prise,discription,photos=[])=>{
     </div>
 
     <div class="placeorder">
-        <button onclick="redop('/placeorder.html')" class="btn">Place Order</button>
+        <button onclick="redop('./placeorder.html')" class="btn">Place Order</button>
         <h4>${discription}</h4>
     </div>
 </div> 
