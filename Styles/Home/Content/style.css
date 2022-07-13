@@ -1,0 +1,140 @@
+
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.Mainbox{
+    background-color: rgba(247, 173, 69, 0.872);
+    
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    height: fit-content;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius:50px;
+}
+
+.CardBox{
+
+    width: 94%;height: fit-content;display: flex;flex-wrap: wrap;background-color: rgba(255, 252, 248, 0.136);justify-content: space-evenly;
+   padding: 10px;
+   min-height: 300px;
+   border-radius: 50px;
+   border: 2px solid rgb(230, 205, 95);
+}
+
+.Card{
+    width: 350px;height: 400px;
+
+    
+    background-color: beige;border-radius: 15px;
+   
+    margin: 7px;
+    border: 4px solid wheat;
+    background-position: center;background-size: cover;background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+
+    transform:rotateZ(3deg);
+    transition: 200ms;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.Card:hover{
+    box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.617);
+    transform:rotateZ(0deg)
+}
+
+
+
+.CardOption{
+    width: 100%;height: 85%;
+    background-color: rgba(205, 220, 220, 0.44);
+    margin-top: 85%;display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 25px;
+    transition: 2s;
+    border-top-right-radius: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.703);
+}
+.CardOption:hover{
+    margin-top: 17%;
+    border-top: 1px solid white;
+    
+}
+.ordername{
+    flex:1;
+    text-align: center;
+    
+}
+.orderprise{
+    color: rgba(27, 27, 25, 0.744);-webkit-text-stroke: 1px rgb(254, 254, 255);text-decoration: underline;align-self: center;
+}
+
+.placeorder{
+    
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 22px;
+}
+.btn{
+font-size: 23px;
+padding: 8px;
+color: rgb(242, 234, 248);
+background-color: rgba(42, 162, 42, 0.662);
+border-radius: 10px;
+transition: 500ms;
+cursor: pointer;
+border: 2px solid white;
+}
+
+.btn:hover{
+    background-color: rgba(33, 202, 33, 0.974);
+    
+    
+}
+
+
+.otherphotobox{
+    width: fit-content;height: 55px;
+    background-color: rgba(220, 245, 237, 0.274);
+    position: absolute;top: 0;left: 0;display: flex;border-radius: 3px;
+    overflow-x: auto;
+    border-radius: 10px;
+}
+.otherphoto{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 60px;
+    width: 55px;
+    margin: 5px;border-radius: 5px;
+    border: 2px solid rgba(255, 253, 253, 0.277);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.otherphoto:hover{
+    border: 2px solid rgb(116, 116, 116);
+   
+}
+
+#Info:hover ~ h1{
+  color: brown;
+}
+
+

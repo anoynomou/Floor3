@@ -1,0 +1,88 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+:root{
+    --background: aliceblue;
+    --background-image : url(..../1657431954111.jpeg);
+}
+
+body{
+   background-image: linear-gradient(rgb(78, 250, 236),rgb(110, 171, 215),rgb(34, 32, 32));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+/* Style for PC */
+.Header{
+   background-color: var(--background);
+   background-image: url("../../../AdobeStock_351669115small-1.png");
+   width: 100%;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 50vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   border-bottom: 3px dashed goldenrod;
+}
+
+
+
+
+#Info{
+  width: fit-content;
+  padding: 30px;
+  position: relative;
+  color: rgb(235, 242, 234);
+  text-align: center;
+  font-size: 2.5em;
+  -webkit-text-stroke: 0.2vw rgb(69, 69, 69);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+#Info h2{
+    color: rgb(192, 185, 185);
+}
+
+#Info h1{
+    text-shadow: 4px 8px 10px rgb(8, 5, 5);
+    text-align: center;
+
+}
+
+
+#instagram{
+    font-size: 30px;color: rgb(191, 53, 150);cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgba(217, 145, 72, 0.697);
+}
+#twiter{
+    font-size: 30px;color: rgb(90, 175, 232);cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgba(217, 145, 72, 0.697);
+}
+#facebook{
+    font-size: 30px;color: rgb(40, 90, 207);cursor: pointer;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgba(217, 145, 72, 0.697);
+}
+#instagram:hover ,#twiter:hover ,#facebook:hover{
+    box-shadow: 3px 5px 12px currentColor;
+}
